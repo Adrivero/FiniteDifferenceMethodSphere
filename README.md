@@ -13,10 +13,11 @@ Solving heat conduction equation (PDE) on a sphere using the Finite Difference M
 If we project it to spherical coordinates (assuming u=0):
   <img src="images/Energy equation in Spherical coordinates.png" alt="Heat equation Spherical Coordinates" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
 
+The initial conditions are: 
+<img src="images/Initial conditions.png" alt="Initial conditions" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
 
-
-
-
+And as boundary conditions we set that the sphere is subjected to convection in its outer shell, encoded by the equation: 
+<img src="images/Boundary conditions (convection).png" alt="Boundary conditions" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
 
 This script was coded using PyCharm using Python 3.12. It uses basic libraries such as numpy, math and matplotlib.
 
