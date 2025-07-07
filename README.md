@@ -6,10 +6,12 @@ Solving heat conduction equation (PDE) on a sphere using the Finite Difference M
 <p>
   The heat equation in Cartesian coordiantes reads as:
   <img src="images/Heat equation.png" alt="Heat equation Cartesian Coordinates" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
-  If we project it to spherical coordinates (assuming u=0):
-  <img src="images/Energy equation in Spherical coordinates.png" alt="Heat equation Spherical Coordinates" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
+  
   
 </p>
+
+If we project it to spherical coordinates (assuming u=0):
+  <img src="images/Energy equation in Spherical coordinates.png" alt="Heat equation Spherical Coordinates" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
 
 
 
