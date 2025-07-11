@@ -9,7 +9,7 @@ Solving heat conduction equation (PDE) on a sphere using the Finite Difference M
   
   
 
-If we project it to spherical coordinates (assuming u=0):
+If we project it to spherical coordinates (assuming u=0)  we get the following equation; this is the one discretized and modelled in this repository:
   <img src="images/Energy equation in Spherical coordinates.png" alt="Heat equation Spherical Coordinates" width="300" align="center" style="margin-left: 20px; margin-bottom: 10px;" />
 
 The initial conditions are: 
